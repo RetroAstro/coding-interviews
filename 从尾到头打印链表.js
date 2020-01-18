@@ -2,7 +2,6 @@
     this.val = x
     this.next = null
 }*/
-
 function printListFromTailToHead(head) {
   let arr = []
   let curr = head
