@@ -14,8 +14,8 @@ function permutation(str) {
     if (rest.length == 1) {
       return [...fixed, ...rest]
     }
-    return rest.map((item, index1) => {
-      let temp = [...fixed, item]
+    return rest.map((num, index1) => {
+      let temp = [...fixed, num]
       let mids = f(temp, rest.filter((item, index2) => index1 != index2))
 
       if (mids.length == arr.length) {
