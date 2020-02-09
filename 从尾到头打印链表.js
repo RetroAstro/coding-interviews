@@ -7,11 +7,7 @@ function printListFromTailToHead(head) {
   let curr = head
 
   while (curr != null) {
-    if (arr.length) {
-      arr.unshift(curr.val)
-    } else {
-      arr.push(curr.val)
-    }
+    arr.unshift(curr.val)
     curr = curr.next
   }
 
