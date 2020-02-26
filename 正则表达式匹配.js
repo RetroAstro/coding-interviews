@@ -1,0 +1,3 @@
+function match(s, pattern) {
+  
+}
