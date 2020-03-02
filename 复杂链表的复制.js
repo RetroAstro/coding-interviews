@@ -1,4 +1,4 @@
-/*function RandomListNode(x) {
+/*function Node(x) {
     this.label = x
     this.next = null
     this.random = null
@@ -21,10 +21,4 @@ function clone(head) {
   }
 
   return map.get(head)
-
-  function Node(x) {
-    this.label = x
-    this.next = null
-    this.random = null
-  }
 }
